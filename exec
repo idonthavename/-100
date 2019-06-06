@@ -1,5 +1,5 @@
 <?php
-class kudi100{
+class kuaidi100{
 
     public function getExpress($numbe){
         $company = file_get_contents("http://m.kuaidi100.com/autonumber/auto?num=".$numbe);
